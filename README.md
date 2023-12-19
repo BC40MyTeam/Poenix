@@ -1,4 +1,4 @@
-- room index
-- upsert room
-- detail item
-- insert detail item
+- room service
+- upsert room service
+- room service roster
+- update room service roster
