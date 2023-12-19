@@ -1,5 +1,4 @@
-- Admin Index
-- upsert admin
-- inventory index
-- upsert inventory
-- my room
+- rservation log
+- total income
+- reservation detail
+- reservation
