@@ -1,0 +1,15 @@
+C:\Users\1922\Desktop\Phoenix\src\Phoenix.Business\bin\Debug\net6.0\Phoenix.Business.deps.json
+C:\Users\1922\Desktop\Phoenix\src\Phoenix.Business\bin\Debug\net6.0\Phoenix.Business.dll
+C:\Users\1922\Desktop\Phoenix\src\Phoenix.Business\bin\Debug\net6.0\Phoenix.Business.pdb
+C:\Users\1922\Desktop\Phoenix\src\Phoenix.Business\bin\Debug\net6.0\Phoenix.DataAccess.dll
+C:\Users\1922\Desktop\Phoenix\src\Phoenix.Business\bin\Debug\net6.0\Phoenix.DataAccess.pdb
+C:\Users\1922\Desktop\Phoenix\src\Phoenix.Business\obj\Debug\net6.0\Phoenix.Business.csproj.AssemblyReference.cache
+C:\Users\1922\Desktop\Phoenix\src\Phoenix.Business\obj\Debug\net6.0\Phoenix.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1922\Desktop\Phoenix\src\Phoenix.Business\obj\Debug\net6.0\Phoenix.Business.AssemblyInfoInputs.cache
+C:\Users\1922\Desktop\Phoenix\src\Phoenix.Business\obj\Debug\net6.0\Phoenix.Business.AssemblyInfo.cs
+C:\Users\1922\Desktop\Phoenix\src\Phoenix.Business\obj\Debug\net6.0\Phoenix.Business.csproj.CoreCompileInputs.cache
+C:\Users\1922\Desktop\Phoenix\src\Phoenix.Business\obj\Debug\net6.0\Phoenix.Business.csproj.CopyComplete
+C:\Users\1922\Desktop\Phoenix\src\Phoenix.Business\obj\Debug\net6.0\Phoenix.Business.dll
+C:\Users\1922\Desktop\Phoenix\src\Phoenix.Business\obj\Debug\net6.0\refint\Phoenix.Business.dll
+C:\Users\1922\Desktop\Phoenix\src\Phoenix.Business\obj\Debug\net6.0\Phoenix.Business.pdb
+C:\Users\1922\Desktop\Phoenix\src\Phoenix.Business\obj\Debug\net6.0\ref\Phoenix.Business.dll

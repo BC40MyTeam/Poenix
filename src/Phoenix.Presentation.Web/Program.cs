@@ -22,6 +22,7 @@ namespace Phoenix.Presentation.Web
                 cfg.CreateMap<LoginFormViewModel, Administrator>();
 
             });
+            builder.Services.AddControllers();
             var app = builder.Build();
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -30,6 +31,7 @@ namespace Phoenix.Presentation.Web
             }
             app.UseStaticFiles();
             app.UseRouting();
+            app.UseAuthorization();
             app.UseAuthorization();
             app.MapControllerRoute(
                 name: "default",

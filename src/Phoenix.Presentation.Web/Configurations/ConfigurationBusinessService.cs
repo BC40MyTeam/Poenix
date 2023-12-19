@@ -1,5 +1,6 @@
 ﻿using Phoenix.Business.Interfaces;
 using Phoenix.Business.Repositories;
+using Phoenix.Presentation.Web.Services;
 
 namespace Phoenix.Presentation.Web.Configurations
 {
@@ -9,11 +10,15 @@ namespace Phoenix.Presentation.Web.Configurations
         {
             //Repository
             service.AddScoped<IAuthRepository, AuthRepository>();
+            service.AddScoped<IAdminRepository, AdminRepository>();
 
+            //Service
+            service.AddScoped<AdminService>();
             //Web
 
             
             //Api
+
 
 
 
