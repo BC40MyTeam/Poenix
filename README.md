@@ -1,2 +1,5 @@
+- rservation log
+- total income
+- reservation detail
+- reservation
 
-Front-end sesuaiin ama soalnya, biar tar jadinya ga beda"
