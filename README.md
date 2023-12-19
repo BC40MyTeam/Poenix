@@ -1,4 +1,4 @@
-- Admin Index
-- upsert admin
-- inventory index
-- upsert inventory
+- login
+- register
+- change pass
+- landing page
