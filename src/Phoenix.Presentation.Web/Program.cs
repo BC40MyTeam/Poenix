@@ -12,6 +12,7 @@ namespace Phoenix.Presentation.Web
             // Add services to the container.
             Dependencies.AddDataAccessServices(builder.Services, builder.Configuration);
             builder.Services.AddBusinessService();
+            builder.Services.AddScoped<>();
             builder.Services.AddControllersWithViews();
             var app = builder.Build();
             // Configure the HTTP request pipeline.

@@ -1,11 +1,11 @@
-﻿namespace Phoenix.Presentation.Web.Configurations
+﻿using Phoenix.Business;
+namespace Phoenix.Presentation.Web.Configurations
 {
     public static class ConfigurationBusinessService
     {
         public static IServiceCollection AddBusinessService(this IServiceCollection service)
         {
-            //Repository
-
+            service.AddScoped<IReservationRepository, ReservationRepository>();
 
             //Web
 

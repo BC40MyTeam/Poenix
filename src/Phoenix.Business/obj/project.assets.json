@@ -2639,19 +2639,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1922\\.nuget\\packages\\": {}
+    "C:\\Users\\1910\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1922\\Desktop\\Phoenix\\src\\Phoenix.Business\\Phoenix.Business.csproj",
+      "projectUniqueName": "C:\\dhanar_rizky_krisnadhy\\BC40\\Poenix\\src\\Phoenix.Business\\Phoenix.Business.csproj",
       "projectName": "Phoenix.Business",
-      "projectPath": "C:\\Users\\1922\\Desktop\\Phoenix\\src\\Phoenix.Business\\Phoenix.Business.csproj",
-      "packagesPath": "C:\\Users\\1922\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1922\\Desktop\\Phoenix\\src\\Phoenix.Business\\obj\\",
+      "projectPath": "C:\\dhanar_rizky_krisnadhy\\BC40\\Poenix\\src\\Phoenix.Business\\Phoenix.Business.csproj",
+      "packagesPath": "C:\\Users\\1910\\.nuget\\packages\\",
+      "outputPath": "C:\\dhanar_rizky_krisnadhy\\BC40\\Poenix\\src\\Phoenix.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\1922\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\1910\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2665,8 +2665,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\1922\\Desktop\\Phoenix\\src\\Phoenix.DataAccess\\Phoenix.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\1922\\Desktop\\Phoenix\\src\\Phoenix.DataAccess\\Phoenix.DataAccess.csproj"
+            "C:\\dhanar_rizky_krisnadhy\\BC40\\Poenix\\src\\Phoenix.DataAccess\\Phoenix.DataAccess.csproj": {
+              "projectPath": "C:\\dhanar_rizky_krisnadhy\\BC40\\Poenix\\src\\Phoenix.DataAccess\\Phoenix.DataAccess.csproj"
             }
           }
         }
