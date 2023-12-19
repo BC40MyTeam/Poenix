@@ -2,3 +2,6 @@
 - register
 - change pass
 - landing page
+- booking
+- room detail
+- my room
