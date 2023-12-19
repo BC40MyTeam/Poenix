@@ -90,3 +90,7 @@ nav ul li a:hover{
   min-width: 100px;
   text-align: center;
 }
+
+.display-none{
+    display:none;
+}

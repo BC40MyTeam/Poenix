@@ -1,4 +1,12 @@
-﻿<!DOCTYPE html>
+﻿@using System.Security.Claims
+@{
+    var user = User as System.Security.Claims.ClaimsPrincipal;
+
+    var userName = user.FindFirst("Username")?.Value;
+    var role = user.FindFirst(ClaimTypes.Role)?.Value;
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,37 +22,37 @@
         <nav>
             <ul>
                 <li>
-                    <a href="">
+                    <a href="" class="@(role == "Guest"? "display-none":"")">
                         Administrator
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="" class="@(role == "Guest"? "display-none":"")">
                         Room
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="" class="@(role == "Guest"? "display-none":"")">
                         Inventory
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="" class="@(role == "Guest"? "display-none":"")">
                         Room Service
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="" class="@(role == "Guest"? "display-none":"")">
                         Reservation Log
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="" class="@(role == "Administrator"? "display-none":"")">
                         Booking
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="" class="@(role == "Administrator"? "display-none":"")">
                         My Room
                     </a>
                 </li>
