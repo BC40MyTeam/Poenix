@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "/gmoMhyuCRa6IB2lKHOKfLFerYA2vWfH8JVlCgq3+jSQtaDOk1cs61/joLFh3peMiQRiFjwJP2YnU6Zi8ugF8w==",
+  "dgSpecHash": "D2WQ4ePq8mTJbUGG0bXr9LPlBg8ciQ2Tby2lA7kHT/9gBAQAQU1p7fy0Hw5NCBpqiC0sreqOAsxQ8lHfQIh8Rg==",
   "success": true,
   "projectFilePath": "C:\\Bootcamp\\bc40\\src\\Phoenix.Presentation.Web\\Phoenix.Presentation.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1874\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\1874\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\1874\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\1874\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\1874\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\1874\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
