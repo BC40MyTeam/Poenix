@@ -1,4 +1,6 @@
 ﻿using Phoenix.Business;
+using Phoenix.Presentation.Web.Services;
+
 namespace Phoenix.Presentation.Web.Configurations
 {
     public static class ConfigurationBusinessService
@@ -6,14 +8,6 @@ namespace Phoenix.Presentation.Web.Configurations
         public static IServiceCollection AddBusinessService(this IServiceCollection service)
         {
             service.AddScoped<IReservationRepository, ReservationRepository>();
-
-            //Web
-
-            
-            //Api
-
-
-
             return service;
         }
     }
