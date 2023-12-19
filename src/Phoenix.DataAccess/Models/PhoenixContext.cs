@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Phoenix.DataAccess.Models.Enums;
 
 namespace Phoenix.DataAccess.Models;
 
@@ -175,7 +176,8 @@ public partial class PhoenixContext : DbContext
                 .HasMaxLength(3)
                 .IsUnicode(false)
                 .IsFixedLength()
-                .HasColumnName("room_type");
+                .HasColumnName("room_type")
+                .HasConversion(v => v.ToString(), v => (RoomType)Enum.Parse(typeof(RoomType), v));
         });
 
         modelBuilder.Entity<RoomInventory>(entity =>

@@ -2702,19 +2702,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1874\\.nuget\\packages\\": {}
+    "C:\\Users\\1902\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Bootcamp\\bc40\\src\\Phoenix.Presentation.Web\\Phoenix.Presentation.Web.csproj",
+      "projectUniqueName": "C:\\Users\\1902\\Documents\\GitHub-BC40\\Poenix\\src\\Phoenix.Presentation.Web\\Phoenix.Presentation.Web.csproj",
       "projectName": "Phoenix.Presentation.Web",
-      "projectPath": "C:\\Bootcamp\\bc40\\src\\Phoenix.Presentation.Web\\Phoenix.Presentation.Web.csproj",
-      "packagesPath": "C:\\Users\\1874\\.nuget\\packages\\",
-      "outputPath": "C:\\Bootcamp\\bc40\\src\\Phoenix.Presentation.Web\\obj\\",
+      "projectPath": "C:\\Users\\1902\\Documents\\GitHub-BC40\\Poenix\\src\\Phoenix.Presentation.Web\\Phoenix.Presentation.Web.csproj",
+      "packagesPath": "C:\\Users\\1902\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\1902\\Documents\\GitHub-BC40\\Poenix\\src\\Phoenix.Presentation.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\1874\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\1902\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2728,8 +2728,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Bootcamp\\bc40\\src\\Phoenix.Business\\Phoenix.Business.csproj": {
-              "projectPath": "C:\\Bootcamp\\bc40\\src\\Phoenix.Business\\Phoenix.Business.csproj"
+            "C:\\Users\\1902\\Documents\\GitHub-BC40\\Poenix\\src\\Phoenix.Business\\Phoenix.Business.csproj": {
+              "projectPath": "C:\\Users\\1902\\Documents\\GitHub-BC40\\Poenix\\src\\Phoenix.Business\\Phoenix.Business.csproj"
             }
           }
         }

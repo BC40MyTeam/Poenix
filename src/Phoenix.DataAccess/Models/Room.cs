@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Phoenix.DataAccess.Models.Enums;
+using System;
 using System.Collections.Generic;
 
 namespace Phoenix.DataAccess.Models;
@@ -9,7 +10,7 @@ public partial class Room
 
     public int Floor { get; set; }
 
-    public string RoomType { get; set; } = null!;
+    public RoomType RoomType { get; set; }
 
     public int GuestLimit { get; set; }
 
