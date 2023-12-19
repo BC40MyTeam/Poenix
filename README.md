@@ -4,4 +4,3 @@
 - landing page
 - booking
 - room detail
-- my room
