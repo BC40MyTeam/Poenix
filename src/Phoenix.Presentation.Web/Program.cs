@@ -1,5 +1,7 @@
 using Phoenix.DataAccess;
+using Phoenix.DataAccess.Models;
 using Phoenix.Presentation.Web.Configurations;
+using Phoenix.Presentation.Web.ViewModels;
 
 namespace Phoenix.Presentation.Web
 {
@@ -13,6 +15,13 @@ namespace Phoenix.Presentation.Web
             Dependencies.AddDataAccessServices(builder.Services, builder.Configuration);
             builder.Services.AddBusinessService();
             builder.Services.AddControllersWithViews();
+            //Tinggal ditambahin kalau mau ngedit mapper baru
+            builder.Services.AddAutoMapper(cfg =>
+            {
+                cfg.CreateMap<Administrator,LoginFormViewModel>();
+                cfg.CreateMap<LoginFormViewModel, Administrator>();
+
+            });
             var app = builder.Build();
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

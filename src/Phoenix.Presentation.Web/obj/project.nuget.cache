@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "D2WQ4ePq8mTJbUGG0bXr9LPlBg8ciQ2Tby2lA7kHT/9gBAQAQU1p7fy0Hw5NCBpqiC0sreqOAsxQ8lHfQIh8Rg==",
+  "dgSpecHash": "EbVpKq5Y283Rea8OkhWLs+O4vQwePUr1v4pFcdBogaBEDE4QTczL/cDascpBWGGoHdo0k4lEVfBUAAHHxpQwjg==",
   "success": true,
   "projectFilePath": "C:\\Bootcamp\\bc40\\src\\Phoenix.Presentation.Web\\Phoenix.Presentation.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\1874\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\1874\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\1874\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\1874\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\1874\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\1874\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\1874\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\1874\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\1874\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "C:\\Users\\1874\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.0\\microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "C:\\Users\\1874\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",
