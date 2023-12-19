@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Phoenix.Presentation.Web.props" />
+</Project>
