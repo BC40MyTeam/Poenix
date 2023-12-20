@@ -11,5 +11,6 @@ namespace Phoenix.Business.Interfaces
     {
         public Administrator GetAdminAccount(string username);
         public Guest GetGuestAccount(string username);
+        public void RegisterGuest(Guest newGuestData);
     }
 }

@@ -1,17 +1,22 @@
-﻿using Microsoft.AspNetCore.Authentication;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Phoenix.Business.Interfaces;
+using Phoenix.DataAccess.Models;
 using Phoenix.Presentation.Web.ViewModels;
 using System.Security.Claims;
 
 namespace Phoenix.Presentation.Web.Services
 {
+    
     public class AuthService
     {
         private readonly IAuthRepository _repository;
-        public AuthService(IAuthRepository repository)
+        private readonly IMapper _mapper;
+        public AuthService(IAuthRepository repository, IMapper mapper)
         {
             _repository = repository;
+            _mapper = mapper;
         }
 
         public AuthenticationTicket Login(LoginFormViewModel vm)
@@ -57,6 +62,10 @@ namespace Phoenix.Presentation.Web.Services
                 return new AuthenticationTicket(principal, authenticationProperties, CookieAuthenticationDefaults.AuthenticationScheme);
             }
         }
+        public void RegisterGuest(RegisterFormViewModel vm){
+            var guestData = _mapper.Map<Guest>(vm);
+            _repository.RegisterGuest(guestData);
+        }
         private void VerifyPassword(string enteredPassword, string storedPassword)
         {
             bool isCorrectPassword = BCrypt.Net.BCrypt.Verify(enteredPassword, storedPassword);
@@ -67,3 +76,4 @@ namespace Phoenix.Presentation.Web.Services
             }
         }
     }
+}

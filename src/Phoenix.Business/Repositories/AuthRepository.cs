@@ -25,5 +25,13 @@ namespace Phoenix.Business.Repositories
             return _context.Guests.FirstOrDefault(a => a.Username == username) 
                         ?? throw new KeyNotFoundException("Guest not found");
         }
+        public void RegisterGuest(Guest newGuestData){
+            try{
+                _context.Add(newGuestData);
+                _context.SaveChanges();
+            }catch(Exception e){
+                throw new Exception(e.Message);
+            }
+        }
     }
 }
