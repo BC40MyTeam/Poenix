@@ -20,6 +20,7 @@ namespace Phoenix.Presentation.Web
             {
                 cfg.CreateMap<Administrator,LoginFormViewModel>();
                 cfg.CreateMap<LoginFormViewModel, Administrator>();
+                cfg.CreateMap<RegisterFormViewModel,Guest>();
 
             });
             builder.Services.AddControllers();
