@@ -12,3 +12,17 @@ C:\Users\1922\Desktop\Phoenix\src\Phoenix.DataAccess\obj\Debug\net6.0\Phoenix.Da
 C:\Users\1922\Desktop\Phoenix\src\Phoenix.DataAccess\obj\Debug\net6.0\ref\Phoenix.DataAccess.dll
 C:\Users\1922\Desktop\Phoenix\src\Phoenix.DataAccess\bin\Debug\net6.0\Phoenix.DataAccess.runtimeconfig.json
 C:\Users\1922\Desktop\Phoenix\src\Phoenix.DataAccess\obj\Debug\net6.0\Phoenix.DataAccess.genruntimeconfig.cache
+C:\Users\1913\Desktop\Poenix\Poenix\src\Phoenix.DataAccess\bin\Debug\net6.0\Phoenix.DataAccess.deps.json
+C:\Users\1913\Desktop\Poenix\Poenix\src\Phoenix.DataAccess\bin\Debug\net6.0\Phoenix.DataAccess.runtimeconfig.json
+C:\Users\1913\Desktop\Poenix\Poenix\src\Phoenix.DataAccess\bin\Debug\net6.0\Phoenix.DataAccess.dll
+C:\Users\1913\Desktop\Poenix\Poenix\src\Phoenix.DataAccess\bin\Debug\net6.0\Phoenix.DataAccess.pdb
+C:\Users\1913\Desktop\Poenix\Poenix\src\Phoenix.DataAccess\obj\Debug\net6.0\Phoenix.DataAccess.csproj.AssemblyReference.cache
+C:\Users\1913\Desktop\Poenix\Poenix\src\Phoenix.DataAccess\obj\Debug\net6.0\Phoenix.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1913\Desktop\Poenix\Poenix\src\Phoenix.DataAccess\obj\Debug\net6.0\Phoenix.DataAccess.AssemblyInfoInputs.cache
+C:\Users\1913\Desktop\Poenix\Poenix\src\Phoenix.DataAccess\obj\Debug\net6.0\Phoenix.DataAccess.AssemblyInfo.cs
+C:\Users\1913\Desktop\Poenix\Poenix\src\Phoenix.DataAccess\obj\Debug\net6.0\Phoenix.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\1913\Desktop\Poenix\Poenix\src\Phoenix.DataAccess\obj\Debug\net6.0\Phoenix.DataAccess.dll
+C:\Users\1913\Desktop\Poenix\Poenix\src\Phoenix.DataAccess\obj\Debug\net6.0\refint\Phoenix.DataAccess.dll
+C:\Users\1913\Desktop\Poenix\Poenix\src\Phoenix.DataAccess\obj\Debug\net6.0\Phoenix.DataAccess.pdb
+C:\Users\1913\Desktop\Poenix\Poenix\src\Phoenix.DataAccess\obj\Debug\net6.0\Phoenix.DataAccess.genruntimeconfig.cache
+C:\Users\1913\Desktop\Poenix\Poenix\src\Phoenix.DataAccess\obj\Debug\net6.0\ref\Phoenix.DataAccess.dll

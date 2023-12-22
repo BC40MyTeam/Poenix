@@ -1,5 +1,8 @@
 using Phoenix.DataAccess;
+using Phoenix.DataAccess.Models;
 using Phoenix.Presentation.Web.Configurations;
+using Phoenix.Presentation.Web.RoomServiceAPI;
+using Phoenix.Presentation.Web;
 
 namespace Phoenix.Presentation.Web
 {
@@ -9,10 +12,17 @@ namespace Phoenix.Presentation.Web
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            
+
             // Add services to the container.
             Dependencies.AddDataAccessServices(builder.Services, builder.Configuration);
             builder.Services.AddBusinessService();
+            
+            builder.Services.AddScoped<RoomServiceAPIService>();
+            
             builder.Services.AddControllersWithViews();
+
+
             var app = builder.Build();
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

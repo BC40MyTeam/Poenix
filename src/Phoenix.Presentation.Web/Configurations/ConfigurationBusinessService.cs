@@ -1,4 +1,7 @@
-﻿namespace Phoenix.Presentation.Web.Configurations
+﻿using Phoenix.Business.Interfaces;
+using Phoenix.Business.Repositories;
+
+namespace Phoenix.Presentation.Web.Configurations
 {
     public static class ConfigurationBusinessService
     {
@@ -8,7 +11,7 @@
 
 
             //Web
-
+            service.AddScoped<IRoomServiceRepository, RoomServiceRepository>();
             
             //Api
 

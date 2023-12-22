@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1922\\Desktop\\Phoenix\\src\\Phoenix.DataAccess\\Phoenix.DataAccess.csproj": {}
+    "C:\\Users\\1913\\Desktop\\Poenix\\Poenix\\src\\Phoenix.DataAccess\\Phoenix.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1922\\Desktop\\Phoenix\\src\\Phoenix.DataAccess\\Phoenix.DataAccess.csproj": {
+    "C:\\Users\\1913\\Desktop\\Poenix\\Poenix\\src\\Phoenix.DataAccess\\Phoenix.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1922\\Desktop\\Phoenix\\src\\Phoenix.DataAccess\\Phoenix.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\1913\\Desktop\\Poenix\\Poenix\\src\\Phoenix.DataAccess\\Phoenix.DataAccess.csproj",
         "projectName": "Phoenix.DataAccess",
-        "projectPath": "C:\\Users\\1922\\Desktop\\Phoenix\\src\\Phoenix.DataAccess\\Phoenix.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\1922\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1922\\Desktop\\Phoenix\\src\\Phoenix.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\1913\\Desktop\\Poenix\\Poenix\\src\\Phoenix.DataAccess\\Phoenix.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\1913\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1913\\Desktop\\Poenix\\Poenix\\src\\Phoenix.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\1922\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1913\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -16,3 +16,139 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.create-button {
+    margin-left: 0px;
+}
+
+.blue-button {
+    border: none;
+    outline: none;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    color: black;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: grey;
+}
+
+.grid-container table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border: solid;
+}
+
+.grid-container thead > tr {
+    background-color: lightgrey;
+    border-bottom: #3a466c solid 1px;
+}
+
+.grid-container th {
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: black;
+}
+
+.grid-container tbody > tr {
+    border-bottom: #3a466c solid 1px;
+}
+
+.grid-container tbody td {
+    padding: 10px;
+}
+
+.grid-container tbody > tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+}
+
+    .pagination a {
+        color: #14acf8;
+        border: solid 1px #14acf8;
+        display: inline-block;
+        cursor: pointer;
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        border-radius: 4px;
+        text-decoration: none;
+        margin-right: 3px;
+    }
+
+        .pagination a:hover {
+            color: white;
+            background-color: #14acf8;
+        }
+
+        .pagination a:last-child {
+            margin-right: 0;
+        }
+
+.modal-layer {
+    display: none; /*nanti setelah di-click akan jadi flex*/
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+div.modal-layer--opened {
+    display: flex;
+}
+
+.popup-dialog {
+    display: none; /*nanti setelah di-click akan jadi block*/
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    min-width: 300px;
+}
+
+div.popup-dialog--opened {
+    display: block;
+}
+
+.popup-dialog header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+    .popup-dialog header > h1 {
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .popup-dialog header > .close-button {
+        font-size: 20px;
+        color: #e74c3c;
+    }
+
+.popup-dialog td {
+    padding: 10px 30px 10px 0;
+}
+
+    .popup-dialog td:first-child {
+        color: #14acf8;
+        font-weight: bold;
+    }
+
+.popup-dialog form [type=submit] {
+    margin-top: 20px;
+}

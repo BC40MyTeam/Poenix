@@ -1,0 +1,80 @@
+﻿
+
+<main>
+
+<div class="grid-container category-index">
+    <form class="filter">
+        <input type="text" placeholder="Number" name="number">
+        <input type="text" placeholder="FullName" name="name">
+        <button type="submit" class="blue-button">Search</button>
+    </form>
+    <a class="blue-button create-button insert-button">Insert New Employee</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Action</th>
+                <th>Number</th>
+                <th>FullName</th>
+                <th>OutsourcingCompany</th>
+            </tr>
+        </thead>
+        <tbody class="employeeList">
+        </tbody>
+        <tfoot>
+        </tfoot>
+    </table>
+</div>
+
+<div class="modal-layer">
+    <div class="popup-dialog form-dialog">
+        <header>
+            <h1>Employee Form</h1>
+        </header>
+        <form class="insertEmployee">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Employee Number</td>
+                        <td>
+                            <input type="text" class="employeeNumber">
+                            <div class="error-employeeNumber" data-for="employeeNumber"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>FirstName</td>
+                        <td>
+                            <input type="text" class="firstName">
+                                <div class="error-firstName" data-for="firstName"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>MiddleName</td>
+                        <td>
+                            <input type="text" class="middleName">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>LastName</td>
+                        <td>
+                            <input type="text" class="lastName">
+                            <div class="error-lastName" data-for="lastName"></div>
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <td>Outsourcing Company</td>
+                        <td>
+                            <input type="text" class="outSourcingCompany">
+                            <div class="error-outSourcingCompany" data-for="outSourcingCompany"></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="submit" class="blue-button save-button">Save</button>
+            <button type="button" class="blue-button close-button">Close</button>
+        </form>
+    </div>
+</div>
+</main>
+
+
+<script src="~/js/employee/employee-popup.js" asp-append-version="true" defer></script>
