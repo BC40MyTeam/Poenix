@@ -10,5 +10,7 @@ public interface IRoomServiceRepository
 {
     public List<RoomService> GetAllEmployee();
     RoomService InsertEmployee(RoomService roomService);
+    RoomService GetByNumber(string employeeNumber);
+    RoomService UpdatedEmployee(RoomService roomService);
 }
 

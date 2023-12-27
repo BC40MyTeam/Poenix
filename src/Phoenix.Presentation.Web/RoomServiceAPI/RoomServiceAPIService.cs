@@ -46,5 +46,41 @@ public class RoomServiceAPIService
         return resulHasil;
     }
 
+    public RoomServiceDto GetByNumber(string employeeNumber)
+    {
+        var roomService = _roomServiceRepository.GetByNumber(employeeNumber);
+
+        return new RoomServiceDto
+        {
+            EmployeeNumber = roomService.EmployeeNumber,
+            FirstName = roomService.FirstName,
+            MiddleName = roomService.MiddleName,
+            LastName = roomService.LastName,
+            OutsourcingCompany = roomService.OutsourcingCompany,
+        };
+    }
+
+    public RoomServiceDto UpdateEmployee(string employeeNumber, RoomServiceDto dto)
+    {
+        var roomService = _roomServiceRepository.GetByNumber(employeeNumber);
+
+        roomService.EmployeeNumber = dto.EmployeeNumber;
+        roomService.FirstName = dto.FirstName;
+        roomService.MiddleName = dto.MiddleName;
+        roomService.LastName = dto.LastName;
+        roomService.OutsourcingCompany = dto.OutsourcingCompany;
+
+        var updated = _roomServiceRepository.UpdatedEmployee(roomService);
+
+        return new RoomServiceDto
+        {
+            EmployeeNumber = updated.EmployeeNumber,
+            FirstName = updated.FirstName,
+            MiddleName = updated.MiddleName,
+            LastName = updated.LastName,
+            OutsourcingCompany = updated.OutsourcingCompany,
+        };
+    }
+
 }
 

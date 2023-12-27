@@ -39,5 +39,18 @@ public class RoomServiceRepository : IRoomServiceRepository
         return room;
     }
 
+    public RoomService GetByNumber(string employeeNumber)
+    {
+        return _context.RoomServices.FirstOrDefault(c => c.EmployeeNumber == employeeNumber) ??
+            throw new KeyNotFoundException("No employee number found at " + employeeNumber);
+    }
+
+    public RoomService UpdatedEmployee(RoomService roomService)
+    {
+        _context.RoomServices.Update(roomService);
+        _context.SaveChanges();
+        return roomService;
+    }
+
 }
 
